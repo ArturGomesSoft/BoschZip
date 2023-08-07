@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "BoschZip": {
+      "commandName": "Project",
+      "commandLineArgs": "-if:c:\\temp\\aa \r\n-of:\"c:\\temp\\_aa.zip\"\r\n-xe:xml,doc,dll\r\n-xd:folderinside\r\n-xf:\"fileIV.txt\"\r\n-rf\r\n\r\n"
+    },
+    "NoExcludes": {
+      "commandName": "Project",
+      "commandLineArgs": "-if:c:\\temp\\aa \r\n-of:\"c:\\temp\\_aa.zip\"\r\n-rf\r\n-ot:3\r\n-op:\"artur.gomes@outlook.com\"\r\n"
+    },
+    "ByMail": {
+      "commandName": "Project",
+      "commandLineArgs": "-if:c:\\temp\\aa \r\n-of:\"c:\\temp\\_aa.zip\"\r\n-xe:xml,doc,dll\r\n-xd:folderinside\r\n-xf:\"fileIV.txt\"\r\n-rf\r\n-ot:3\r\n-op:\"artur.gomes@outlook.com\"\r\n\r\n"
+    },
+    "MyEmailAll": {
+      "commandName": "Project",
+      "commandLineArgs": "-if:c:\\temp\\aa \r\n-of:\"c:\\temp\\_aa.zip\"\r\n-rf\r\n-ot:3\r\n-op:\"artur.gomes@outlook.com\"\r\n\r\n"
+    }
+  }
+}

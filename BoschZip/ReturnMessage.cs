@@ -2,6 +2,11 @@
 
 namespace BoschZip
 {
+    /// <summary>
+    /// This class will be supporting the result of a process 
+    /// and should provide any type of info regarding what happened
+    /// during the process
+    /// </summary>
     public class ResultObj
     {
         public ResultObj()
@@ -24,6 +29,9 @@ namespace BoschZip
         public StringBuilder Message { get; set; } = new();
     }
 
+    /// <summary>
+    /// Type of result in a process
+    /// </summary>
     public enum ResultTypeEnum
     {
         Success = 0,

@@ -8,6 +8,10 @@ using System.Text;
 
 namespace BoschZip
 {
+    /// <summary>
+    /// Carry out a job for zipping a set of data and produce the necessary output,
+    /// according the <see cref="ZipSettings"/> that should be passed in the constructor.
+    /// </summary>
     public class ZipWorker
     {
         private ZipSettings _settings;

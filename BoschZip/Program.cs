@@ -56,7 +56,7 @@ namespace BoschZip
             Console.ReadKey();
 #endif
 
-            // Exist code
+            // Exit code
             return retVal;
         }
 

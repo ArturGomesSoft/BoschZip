@@ -5,9 +5,7 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoschZip", "BoschZip\BoschZip.csproj", "{B6F40F8D-2B93-44E4-BB0F-8C6F4F2B9D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBoschZip", "TestBoschZip\TestBoschZip.csproj", "{614A5247-9B17-4CDD-AF1E-5383020B6713}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoschZip4.8", "BoschZip4.8\BoschZip4.8.csproj", "{75DCB482-50E9-4C11-B5E5-06661510DE67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBoschZip", "TestBoschZip\TestBoschZip.csproj", "{614A5247-9B17-4CDD-AF1E-5383020B6713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{614A5247-9B17-4CDD-AF1E-5383020B6713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614A5247-9B17-4CDD-AF1E-5383020B6713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{614A5247-9B17-4CDD-AF1E-5383020B6713}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75DCB482-50E9-4C11-B5E5-06661510DE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75DCB482-50E9-4C11-B5E5-06661510DE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75DCB482-50E9-4C11-B5E5-06661510DE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75DCB482-50E9-4C11-B5E5-06661510DE67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
